@@ -1,0 +1,47 @@
+{
+  "name": "vue-enterprise-dashboard",
+  "version": "1.0.0",
+  "description": "Modern Vue-based enterprise dashboard with theming, role-based access, and reusable components",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@nuxtjs/color-mode": "^3.4.0",
+    "@pinia/nuxt": "^0.5.1",
+    "@vueuse/core": "^10.11.0",
+    "@vueuse/nuxt": "^10.11.0",
+    "chart.js": "^4.4.3",
+    "clsx": "^2.1.0",
+    "lucide-vue-next": "^0.344.0",
+    "nuxt": "^3.11.2",
+    "pinia": "^2.1.7",
+    "tailwind-merge": "^2.2.1",
+    "vue": "^3.4.21",
+    "vue-chartjs": "^5.3.1",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@types/node": "^20.11.24",
+    "@vue/test-utils": "^2.4.5",
+    "@vitest/ui": "^1.3.1",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "jsdom": "^24.0.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.4.3",
+    "vitest": "^1.3.1"
+  }
+}
